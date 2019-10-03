@@ -1,0 +1,24 @@
+{
+  "name": "projet-fontaine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guenole76/Projet-Fontaine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guenole76/Projet-Fontaine/issues"
+  },
+  "homepage": "https://github.com/Guenole76/Projet-Fontaine#readme",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
+  }
+}

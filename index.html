@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>Fontaine Paris</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="manifest" href="/dist//manifest.json">
+	</head>
+
+	<body>
+		<p>Coucou</p>
+		<section>
+			<div id="contener">	
+				<h1>Fontaine Potable Paris</h1>
+				<img id="logo" src="Fontaine.jpg" alt="Paris">
+			</div>
+			<iframe src="https://opendata.paris.fr/explore/embed/dataset/fontaines-a-boire/map/?disjunctive.modele&disjunctive.arro1&location=9,49.2687,3.10913&basemap=jawg.streets&static=false&datasetcard=false&scrollWheelZoom=true" width="375" height="480" frameborder="0"></iframe>
+			<!--                      <p>potable ?</p>                    --> 
+		</section>
+		<nav>
+			<div class="theme-switch-wrapper">
+				<label class="theme-switch" for="checkbox">
+				<input type="checkbox" id="checkbox" />
+				<div class="slider round"></div>
+				</label>
+				<em>Enable Dark Mode!</em>
+			</div>			  
+		</nav>
+	<script src="script.js"></script>
+	<script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js');
+            });
+        }
+	</script>
+	</body>		
+</html>
